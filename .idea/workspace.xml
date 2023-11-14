@@ -5,28 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12712bf-17aa-42a8-8e6a-910db40eba73" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/SaveData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Ost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sfx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/GUI/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/GUI/LanternaGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/game/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/State/AppState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/Colors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/design/UML/MVC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -76,8 +60,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/freitas/IdeaProjects/SpaceEscape",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/freitas/IdeaProjects/SpaceEscape/docs/design/UML",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,6 +71,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/design/UML" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,6 +89,7 @@
       <updated>1699721654916</updated>
       <workItem from="1699721656057" duration="1000" />
       <workItem from="1699816380489" duration="5268000" />
+      <workItem from="1699897042288" duration="3401000" />
     </task>
     <servers />
   </component>

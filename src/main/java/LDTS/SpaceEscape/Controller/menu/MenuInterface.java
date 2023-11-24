@@ -1,0 +1,13 @@
+package git.juskocode.controller.menu;
+
+import git.juskocode.App;
+
+import java.io.IOException;
+
+public interface MenuInterface {
+    void optionSelected(App game) throws IOException;
+
+    void escapePressed(App game) throws IOException;
+
+    void backspacePressed(App game) throws IOException;
+}

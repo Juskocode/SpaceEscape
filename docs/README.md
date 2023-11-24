@@ -20,6 +20,20 @@ Software Design and Testing Laboratory
 
 > This is a list of the implemented features of the game
 
+- **Main Menu** - The game has a main mainMenu, that can be accessed by pressing the escape key. The main mainMenu has
+  the following options:
+  - **New Game** - Starts a new game.
+  - **Load Game** - Starts the game in the previous scene, paused.
+  - **Scores** - Displays the scores of the game
+  - **Instructions** - Displays the instructions of the game.
+  - **Exit** - Exits the game.
+- **Pause Screen** - The game can be paused by pressing the escape key, and the game can be resumed by selecting the 'Resume' option in the menu. The player can also exit the game by selecting the 'Exit' option and restart the game by selecting the 'Restart' option.
+- **Game Over Screen** - The game displays a game over screen when the player reaches 0 hp, the score of the player and the distance achieved will be stored in the scores.
+
+### PLANNED FEATURES
+
+> This section is similar to the previous one but should list the features that are not yet implemented. Instead of screenshots you should include GUI mock-ups for the planned features.
+
 - **Player** - The game as a playable character, wich is a space ship. The player can be controlled by using reserved keys:
   - **Movement** - The player can move by pressing "a" key the player moves right, and by pressing "d" key the player move left, the player also as a special move the slide, you can performe that by pressing "shift", this ability has a cooldown, the player becames untouchable during a short time.
   - **Shot** - The player as the hability to shot by pressing the "j" key, and also he can drop bombs by pressing "k" key.
@@ -33,19 +47,10 @@ Software Design and Testing Laboratory
   - **Shoting speed** - Increase shoting speed in a linear fation.
   - **Speed Boost** - Increase minimaly the speed of the player.
   - **Slider** - Decreases the cooldown of the silding hability.
-- **Main Menu** - The game has a main mainMenu, that can be accessed by pressing the escape key. The main mainMenu has
-  the following options:
-  - **New Game** - Starts a new game.
-  - **Load Game** - Starts the game in the previous scene, paused.
-  - **Scores** - Displays the scores of the game
-  - **Instructions** - Displays the instructions of the game.
-  - **Exit** - Exits the game.
 - **Scores** - The game keeps track of the top 5 scores, and displays them in a leaderboard, ordered by descending order of score.
-- **Pause Screen** - The game can be paused by pressing the escape key, and the game can be resumed by selecting the 'Resume' option in the menu. The player can also exit the game by selecting the 'Exit' option and restart the game by selecting the 'Restart' option.
 - **Random asteroids** - The asteroids are generated with a random distance between themselves, the size is also random, but the odds of getting a bigger asteriod are smaller, by progressing the game, the asteroids will spwan faster.
 - **Background music** - The game has background music, that can be turned on and off by pressing the 'm' key. The music is different for the menus and the game.
 - **Sound effects** - The game has sound effects. The sound effects can be turned on and off by pressing the 's' key.
-- **Game Over Screen** - The game displays a game over screen when the player reaches 0 hp, the score of the player and the distance achieved will be stored in the scores.
 - **Collision Detection** - The game detects collisions between the player and the asteroids and the shots from the enemies, and also from the player and coletables.
 - **Colectables** - The player can collect some objetcts to increase his power in the game:
   - **Dropables** - This are objects that rarely drop from the asteroids, they simply are upgrades.
@@ -53,10 +58,6 @@ Software Design and Testing Laboratory
   - **mosquito** - This enemie is a fast pace small space ship with low hp and low damage, but fast shooting speed
   - **corvet** - This is a balanced space ship, with average shooting speed, hp and size.
   - **tanker** - This is a big space ship with high Hp, but slow in speed and shooting speed, the damage is average.
-
-### PLANNED FEATURES
-
-> This section is similar to the previous one but should list the features that are not yet implemented. Instead of screenshots you should include GUI mock-ups for the planned features.
 
 ### MOCKUPS
 

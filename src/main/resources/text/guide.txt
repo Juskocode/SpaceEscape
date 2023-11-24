@@ -1,0 +1,13 @@
+Commands:
+
+<- (arrow left) move left
+-> (arrow right) move right
+z (shot)
+shift (slide) into the direction key
+
+This is game where you need to avoid asteroids
+while killing enemies and earn points!
+
+some asteroids will drop some goods or upgrades,
+so you should not only avoid them ;)
+

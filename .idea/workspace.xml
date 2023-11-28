@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f12712bf-17aa-42a8-8e6a-910db40eba73" name="Changes" comment="Bruh" />
+    <list default="true" id="f12712bf-17aa-42a8-8e6a-910db40eba73" name="Changes" comment="Updated Sound">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/Run-As-Fast-As-You-Can.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/choice_effect.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/select_effect.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sfx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/SOUNDFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/SoundState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/SoundState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/GameOverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/GameOverController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Menu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +76,7 @@
     "WebServerToolWindowFactoryState": "false",
     "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/FEUP/Informatica/2 ano/SpaceEscape",
+    "last_opened_file_path": "/home/freitas/IdeaProjects/SpaceEscape/src/main/resources/sounds",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,9 +88,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/sounds" />
       <recent name="$PROJECT_DIR$/docs/design/UML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/sounds" />
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
@@ -101,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700863027903</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Sound">
+      <option name="closed" value="true" />
+      <created>1701198477165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701198477165</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bruh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bruh" />
+    <MESSAGE value="Updated Sound" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Sound" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

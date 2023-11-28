@@ -1,6 +1,6 @@
 package LDTS.SpaceEscape.Controller.engine.sound;
 
-mport javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;

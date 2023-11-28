@@ -3,8 +3,8 @@ package LDTS.SpaceEscape.Controller.menu;
 import com.googlecode.lanterna.input.KeyStroke;
 import LDTS.SpaceEscape.App;
 import LDTS.SpaceEscape.struct.menu.GameOver;
-import static LDTS.SpaceEscape.state.AppState.GAME_STATE;
-import static LDTS.SpaceEscape.state.AppState.MENU_STATE;
+import static LDTS.SpaceEscape.State.AppState.GAME_STATE;
+import static LDTS.SpaceEscape.State.AppState.MENU_STATE;
 
 import java.io.File;
 import java.io.FileWriter;

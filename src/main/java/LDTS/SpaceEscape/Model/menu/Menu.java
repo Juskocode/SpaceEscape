@@ -1,4 +1,4 @@
-package LDTS.SpaceEscape.struct.menu;
+package LDTS.SpaceEscape.Model.menu;
 
 import java.util.List;
 

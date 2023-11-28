@@ -1,6 +1,6 @@
-package git.juskocode.controller.menu;
+package LDTS.SpaceEscape.Controller.menu;
 
-import git.juskocode.App;
+import LDTS.SpaceEscape.App;
 
 import java.io.IOException;
 

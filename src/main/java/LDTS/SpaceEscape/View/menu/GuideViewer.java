@@ -1,6 +1,6 @@
 package LDTS.SpaceEscape.View.menu;
 
-import LDTS.SpaceEscape.Gui.GUI;
+import LDTS.SpaceEscape.GUI.GUI;
 import LDTS.SpaceEscape.Model.game.Position;
 import LDTS.SpaceEscape.Model.menu.Guide;
 import LDTS.SpaceEscape.View.Colors;

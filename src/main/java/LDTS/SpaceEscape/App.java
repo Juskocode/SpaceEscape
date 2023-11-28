@@ -17,7 +17,6 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 
 import static LDTS.SpaceEscape.State.AppState.MENU_STATE;
-import static LDTS.SpaceEscape.State.AppState.PAUSE_STATE;
 
 public class App {
     private final LanternaGUI gui;
@@ -26,9 +25,7 @@ public class App {
     private Viewer viewer;
     private AppState state;
     private Main mainMenu;
-    private Pause pause;
-    private Game game;
-    private Game prevGame;
+
 
     public App() throws IOException, URISyntaxException, FontFormatException {
         this.gui = new LanternaGUI();
@@ -77,9 +74,7 @@ public class App {
     }
 
     public void setState(AppState state) throws IOException {
-        if (state == PAUSE_STATE) {
-            this.prevGame = this.game;
-        }
+
         this.state = state;
         switch (state) {
             case MENU_STATE:
@@ -88,25 +83,13 @@ public class App {
                 this.controller = new MainMenuController(mainMenu);
                 this.viewer = new MainViewer(mainMenu);
                 break;
-            case LEADERBOARD_STATE:
-                Leaderboard leaderboard = new Leaderboard();
-                this.controller = new TextReaderController(leaderboard);
-                this.viewer = new LeaderboardViewer(leaderboard);
-                break;
             case GUIDE_STATE:
                 Guide guide = new Guide();
                 this.controller = new TextReaderController(guide);
                 this.viewer = new GuideViewer(guide);
                 break;
-            case PAUSE_STATE:
-                SoundState.getInstance().pauseBackgroundSound();
-                this.pause = new Pause();
-                this.controller = new PauseController(pause);
-                this.viewer = new PauseViewer(pause);
-                break;
             case GAME_OVER_STATE:
-                SoundState.getInstance().pauseBackgroundSound();
-                GameOver gameOver = new GameOver(0);
+                GameOver gameOver = new GameOver();
                 this.controller = new GameOverController(gameOver);
                 this.viewer = new GameOverViewer(gameOver);
                 break;

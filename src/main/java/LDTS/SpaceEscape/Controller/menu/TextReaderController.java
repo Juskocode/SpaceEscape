@@ -6,7 +6,7 @@ import LDTS.SpaceEscape.Model.menu.TextReader;
 
 import java.io.IOException;
 
-import static LDTS.SpaceEscape.state.AppState.MENU_STATE;
+import static LDTS.SpaceEscape.State.AppState.MENU_STATE;
 
 public class TextReaderController extends MenuController<TextReader> {
 

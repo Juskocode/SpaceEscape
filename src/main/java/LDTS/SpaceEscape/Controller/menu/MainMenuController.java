@@ -1,13 +1,13 @@
 package LDTS.SpaceEscape.Controller.menu;
 
 import LDTS.SpaceEscape.App;
-import LDTS.SpaceEscape.controller.sound.SOUNDFX;
-import LDTS.SpaceEscape.controller.sound.SoundState;
+import LDTS.SpaceEscape.Controller.sound.SOUNDFX;
+import LDTS.SpaceEscape.Controller.sound.SoundState;
 import LDTS.SpaceEscape.Model.menu.Main;
 
 import java.io.IOException;
 
-import static LDTS.SpaceEscape.state.AppState.*;
+import static LDTS.SpaceEscape.State.AppState.*;
 
 public class MainMenuController extends MenuController<Main> {
 
@@ -23,7 +23,7 @@ public class MainMenuController extends MenuController<Main> {
             return;
         }
         if (getModel().isSelectedExit()) game.exit();
-        if (getModel().isSelectedLeaderboard()) game.setState(LEADERBOARD_STATE);
+        if (getModel().isSelectedLeaderboard()) game.setState(SCORE_STATE);
         if (getModel().isSelectedInstructions()) game.setState(GUIDE_STATE);
     }
 

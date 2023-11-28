@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f12712bf-17aa-42a8-8e6a-910db40eba73" name="Changes" comment="Updated Sound">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/Run-As-Fast-As-You-Can.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/choice_effect.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/select_effect.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f12712bf-17aa-42a8-8e6a-910db40eba73" name="Changes" comment="Refactoring Problems updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sfx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/SOUNDFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/Sound.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/SoundState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/engine/sound/SoundState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/GameOverController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/GameOverController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MenuInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/PauseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/PauseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/TextReaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/menu/TextReaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/sound/SoundState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Controller/sound/SoundState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/GameOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Guide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Guide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Leaderboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Pause.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/Pause.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/TextReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/Model/menu/TextReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/GameOverViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/GameOverViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/LeaderboardViewer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/MainViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/MainViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/MenuViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/MenuViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/PauseViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LDTS/SpaceEscape/View/menu/PauseViewer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +81,6 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/freitas/IdeaProjects/SpaceEscape/src/main/resources/sounds",
     "node.js.detected.package.eslint": "true",
@@ -82,7 +88,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "/home/freitas/IdeaProjects/SpaceEscape/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "configurable.group.language",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -124,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701198477165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated Sound">
+      <option name="closed" value="true" />
+      <created>1701200439038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701200439038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +147,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bruh" />
     <MESSAGE value="Updated Sound" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Sound" />
+    <MESSAGE value="Refactoring Problems updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring Problems updated" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

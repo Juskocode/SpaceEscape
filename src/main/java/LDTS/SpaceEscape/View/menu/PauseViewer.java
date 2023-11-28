@@ -1,8 +1,8 @@
 package LDTS.SpaceEscape.View.menu;
 
-import LDTS.SpaceEscape.Gui.GUI;
-import LDTS.SpaceEscape.Struct.game.Position;
-import LDTS.SpaceEscape.Struct.menu.Pause;
+import LDTS.SpaceEscape.GUI.GUI;
+import LDTS.SpaceEscape.Model.game.Position;
+import LDTS.SpaceEscape.Model.menu.Pause;
 import LDTS.SpaceEscape.View.Colors;
 
 public class PauseViewer extends MenuViewer<Pause> {
